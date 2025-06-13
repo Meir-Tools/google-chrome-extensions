@@ -1,0 +1,16 @@
+{
+  "manifest_version": 3,
+  "name": "Tab Switcher for Kinobase",
+  "version": "1.0",
+  "permissions": ["tabs"],
+  "host_permissions": ["https://kinobase.org/*","https://www.youtube.com/*"],
+  "background": {
+    "service_worker": "background.js"
+  },
+  "content_scripts": [
+    {
+      "matches": ["https://kinobase.org/*","https://www.youtube.com/*"],
+      "js": ["content.js"]
+    }
+  ]
+}
