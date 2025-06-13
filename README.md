@@ -1,0 +1,2 @@
+cheat-sheet
+chrome://extensions/
