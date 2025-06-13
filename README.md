@@ -1,0 +1,4 @@
+### cheat-sheet
+```
+chrome://extensions/
+```
